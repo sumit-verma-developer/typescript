@@ -1,4 +1,4 @@
-console.log("advanced topic inferredNumber");
+console.log("advanced topic inferse ");
 
 // type script itself knows which datatype   of vale is assigned. (based on datatype value)
 //inferse in ts
@@ -9,6 +9,8 @@ let inferredNumber = 42;
 //   name: "sumit",
 //   age: 22,
 // };
+
+
 
 // union
 
