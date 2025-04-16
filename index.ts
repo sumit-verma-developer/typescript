@@ -64,6 +64,6 @@ function infiniteloop(message: string): never {
 }
 
 //void---- jo kuch  return na  kre, action perform krte hain.
-function add(): void {
+function subtractt(): void {
   console.log(2 + 2);
 }

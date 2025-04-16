@@ -1,18 +1,18 @@
 console.log("advanced topic inferse ");
 
 // type script itself knows which datatype   of vale is assigned. (based on datatype value)
-//inferse in ts
 
 let inferredNumber = 42;
+//infers in ts
 
 // const sumit: user = {
 //   name: "sumit",
 //   age: 22,
 // };
 
+//type is used as globally
 
-
-// union
+// union juda hua
 
 type Vehicle = {
   make: string;
@@ -24,8 +24,14 @@ type Car = Vehicle & {
 
 //result
 
-// let Carresult:Car =  {
-//   make: string;
-//   model: string;
-//   isElectric: boolean;
-// };
+let Carresult: Car = {
+  make: "tesla",
+  model: "Model S",
+  isElectric: true,
+};
+
+let Person: string | object="Sumit" 
+
+Person={
+  name:'Ram'
+}
