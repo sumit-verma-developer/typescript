@@ -22,13 +22,13 @@ const subtract = (a: number, b: number): number => {
 console.log("subtract", subtract(10, 5));
 
 // optional
-function greet(name: string, greeting?: string): string {
+function greete(name: string, greeting?: string): string {
   return greeting ? `${greeting} ${name}` : `Hello Buddy ${name}`;
 }
 
-console.log(greet("sumit"));
+console.log(greete("sumit"));
 
-console.log(greet("Ritik", "welcome to ts"));
+console.log(greete("Ritik", "welcome to ts"));
 
 // how to pass default parameters
 function defaultParameters(
