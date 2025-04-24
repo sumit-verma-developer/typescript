@@ -8,11 +8,16 @@
 //accessor
 
 function simpleClassDecorator(constructor: Function) {
-  console.log("class decorator Called");
+  return console.log("class decorator Called");
+  
 }
-// class se phle call krne ke liye @
+// class se phle call krne ke liye @, decorator write krne ke liye @ use krte hain 
 
-@simpleClassDecorator
+
+// @simpleClassDecorator()
+// @simpleClassDecorator
+
+
 class myClass {
   constructor() {
     console.log("My class  Called");
@@ -20,3 +25,5 @@ class myClass {
 }
 
 const myclassInstance = new myClass();
+
+
