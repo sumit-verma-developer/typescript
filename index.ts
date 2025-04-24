@@ -67,3 +67,5 @@ function infiniteloop(message: string): never {
 function subtractt(): void {
   console.log(2 + 2);
 }
+
+
