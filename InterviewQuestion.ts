@@ -46,4 +46,41 @@
 
 
 // what are the gaurds and how do they work?
-// they gaurds are functions or constructs that help TypeScript narrow down the type of a 
+// Type  gaurds are functions or constructs that help TypeScript narrow down the type of a variable within a conditional block.
+
+
+
+//explain type Script's type mapping and utility type like partial, pick and record.
+//partial makes all properties optioanl, pick selects a subset of properties
+//and record  create a type  with specified key and values.
+
+
+
+// How does Type Script handle module resolution and what are the different startegies.
+// Type Script handles module resolution based  on configuration option  like baseUrl
+// paths and module resolution strategies include node.js and class.
+
+// what are declaration file (d.ts) and how are they used?.
+// declaration file provide type information  about javascript libraries. they help type Script understand types from 
+// non typescript code.
+
+
+
+
+//how do you work with advanced types like mapped type conditional types in typeScript?
+//mapped types create new  types by transforming existing onces while conditional types provide a way to define 
+// type based on conditions . example of conditional type : type TrueFalse<T>=T extends  true?Yes :'No'
+
+
+
+
+// why do  we use tupples in type Script ? loopwhole  ofr limitation  when using tupples in typeScript ?
+
+//A tupple is a special type of array in type script that allows you to define an array with  a fixed number 
+// of element , each with a specific type .
+// tuples are useful when you need to hetrogeneous collection of values.
+
+// example of tupples loopwhole:
+
+// let person:[string, number ]=["Alice", 30,];
+// person[2]="newValue"
